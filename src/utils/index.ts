@@ -1,13 +1,4 @@
-export type totalTaskType = {
-  status?: "stop" | "starting";
-  list?: any[];
-  currentIndex?: number;
-};
 
-export type currentTaskType = {
-  message?: string;
-  percent?: number;
-};
 
 function dataURLtoBlob(dataurl) {
   let arr = dataurl.split(","),

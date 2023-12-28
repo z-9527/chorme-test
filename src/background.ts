@@ -1,1 +1,0 @@
-const startTime = Date.now();
